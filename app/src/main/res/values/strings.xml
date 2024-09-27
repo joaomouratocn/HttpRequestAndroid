@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HttpRequestAndroid</string>
+    <string name="str_search">Search</string>
+    <string name="str_insert_cep">Insert CEP</string>
 </resources>

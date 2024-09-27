@@ -34,6 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -53,4 +56,7 @@ dependencies {
     implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.slf4j.android)
     implementation(libs.kotlinx.serialization.json)
+    //RETROFIT
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 }
